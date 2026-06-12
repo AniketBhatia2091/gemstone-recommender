@@ -60,8 +60,11 @@ The result is rendered as a polished product card showing the recommended gemsto
 
 ## What I'd build next
 
-1. **Nakshatra & Kundali Calculator** — Auto-compute rashi/lagna from exact DOB + birth city using a Vedic ephemeris API (e.g. Prokerala), removing the need for users to know their Jyotish details. This would dramatically increase accessibility for non-astrology-aware users.
+**1. Tejas API integration for full Kundli input**
+Currently the app takes Rashi and Lagna as manual inputs because most users don't know their full birth chart. The next version would integrate with Humara Pandit's Tejas AI astrologer — passing exact birth date, time, and city to compute the full Kundli, then using the actual planetary positions (not user-reported Rashi) to make a more precise recommendation. The /api/recommend endpoint is designed to accept this without any frontend change — only the prompt construction in buildPrompt.js would need extending.
 
-2. **Astrologer Override Dashboard** — Since Humara Pandit works with a network of astrologers, build a simple dashboard where an astrologer can review AI recommendations, override them, and add personal notes before the client sees the result. This maintains the human-in-the-loop trust that is central to Humara Pandit's value proposition.
+**2. Shopify Storefront API for live product sync**
+The current buy buttons use static search URLs (e.g. humarapandit.com/search?q=natural-ruby-manik). In production, these would be replaced with Shopify Storefront API calls that fetch the live product ID, real-time price, and inventory status for each navaratna SKU. This ensures the buy button always shows the correct price and never links to an out-of-stock product — important for high-value items like Blue Sapphire or Diamond where price and availability change frequently.
 
-3. **WhatsApp Integration** — Humara Pandit already uses WhatsApp for customer communication (per the job description). Build a webhook endpoint that accepts a WhatsApp message with the user's rashi and issue, calls the same `/api/recommend` function, and replies with a formatted recommendation — no app install required. This aligns with Humara Pandit's existing customer acquisition channel.
+**3. AskPandit deep link for mobile users**
+On mobile, instead of linking to the Play Store listing, detect if AskPandit is installed (via a custom URI scheme) and deep link directly into the app's Kundli screen pre-filled with the user's Rashi. If not installed, fall back to the Play Store. This creates a seamless handoff between the web recommendation experience and Humara Pandit's native app — turning a web visitor into an AskPandit user.

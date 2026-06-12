@@ -145,6 +145,8 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
+  const responseStartTime = Date.now();
+
   // Handle preflight
   if (req.method === 'OPTIONS') {
     return res.status(200).end();
@@ -158,11 +160,62 @@ export default async function handler(req, res) {
   // Body parsing and validation
   const { rashi, lagna, currentIssue, dominantPlanet, dob } = req.body || {};
 
-  if (!rashi || !lagna || !currentIssue) {
-    return res.status(400).json({
-      error: 'Missing required fields: rashi, lagna, currentIssue',
-    });
+  const VALID_RASHIS = [
+    'Aries','Taurus','Gemini','Cancer','Leo','Virgo',
+    'Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'
+  ];
+  const VALID_LAGNAS = [...VALID_RASHIS];
+  const VALID_ISSUES = [
+    'career','health','relationships','wealth',
+    'mental_peace','protection','spiritual','education'
+  ];
+  const VALID_PLANETS = [
+    'Sun','Moon','Mars','Mercury','Jupiter',
+    'Venus','Saturn','Rahu','Ketu','skip',''
+  ];
+
+  const validationErrors = {};
+  if (!rashi || !VALID_RASHIS.includes(rashi)) {
+    validationErrors.rashi = `Invalid value: ${rashi}. Must be one of: ${VALID_RASHIS.join(', ')}`;
   }
+  if (!lagna || !VALID_LAGNAS.includes(lagna)) {
+    validationErrors.lagna = `Invalid value: ${lagna}. Must be one of: ${VALID_LAGNAS.join(', ')}`;
+  }
+  if (!currentIssue || !VALID_ISSUES.includes(currentIssue)) {
+    validationErrors.currentIssue = `Invalid value: ${currentIssue}. Must be one of: ${VALID_ISSUES.join(', ')}`;
+  }
+  if (dominantPlanet && !VALID_PLANETS.includes(dominantPlanet)) {
+    validationErrors.dominantPlanet = `Invalid value: ${dominantPlanet}. Must be one of: ${VALID_PLANETS.filter(Boolean).join(', ')}`;
+  }
+  if (dob && isNaN(new Date(dob).getTime())) {
+    validationErrors.dob = `Invalid date format: ${dob}`;
+  }
+
+  if (Object.keys(validationErrors).length > 0) {
+    return res.status(400).json({ error: 'Invalid input', details: validationErrors });
+  }
+
+  const LOG_CODES = {
+    'Ruby':'RBY','Pearl':'PRL','Red Coral':'CRL','Emerald':'EMR',
+    'Yellow Sapphire':'YSP','Diamond':'DIA',
+    'Blue Sapphire':'BSP','Hessonite Garnet':'HES','Cat\'s Eye':'CAT'
+  };
+
+  const logRequest = (result, responseStatus, usedFallback) => {
+    console.log(JSON.stringify({
+      t: new Date().toISOString(),
+      rashi: rashi || null,
+      lagna: lagna || null,
+      issue: currentIssue || null,
+      gemstone: result?.gemstone || null,
+      gem_code: LOG_CODES[result?.gemstone] || 'UNK',
+      confidence: result?.confidence_score || null,
+      source: result?.source || 'ai',
+      fallback: usedFallback,
+      response_ms: Date.now() - responseStartTime,
+      status: responseStatus
+    }));
+  };
 
   // Build the prompt
   const prompt = buildPrompt({ rashi, lagna, currentIssue, dominantPlanet, dob });
@@ -171,6 +224,7 @@ export default async function handler(req, res) {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
     console.error('GEMINI_API_KEY is not configured');
+    logRequest(null, 502, true);
     return res.status(502).json({
       error: 'AI service not configured',
       fallback: true,
@@ -202,6 +256,7 @@ export default async function handler(req, res) {
     if (!geminiResponse.ok) {
       const errorBody = await geminiResponse.text().catch(() => 'Unknown error');
       console.error('Gemini API error:', geminiResponse.status, errorBody);
+      logRequest(null, 502, true);
       return res.status(502).json({
         error: 'AI service unavailable',
         fallback: true,
@@ -215,6 +270,7 @@ export default async function handler(req, res) {
 
     if (!text) {
       console.error('Gemini returned empty response');
+      logRequest(null, 502, true);
       return res.status(502).json({
         error: 'AI service returned empty response',
         fallback: true,
@@ -227,6 +283,7 @@ export default async function handler(req, res) {
       recommendation = JSON.parse(text);
     } catch (parseErr) {
       console.error('Failed to parse Gemini response as JSON:', parseErr.message);
+      logRequest(null, 502, true);
       return res.status(502).json({
         error: 'AI service returned invalid format',
         fallback: true,
@@ -236,6 +293,7 @@ export default async function handler(req, res) {
     // Validate the parsed response
     if (!recommendation?.gemstone) {
       console.error('Gemini response missing gemstone field');
+      logRequest(null, 502, true);
       return res.status(502).json({
         error: 'AI service returned incomplete data',
         fallback: true,
@@ -244,12 +302,14 @@ export default async function handler(req, res) {
 
     // Add source tag and return
     recommendation.source = 'ai';
+    logRequest(recommendation, 200, false);
     return res.status(200).json(recommendation);
 
   } catch (err) {
     // Handle timeout specifically
     if (err.message === 'TIMEOUT') {
       console.error('Gemini API request timed out');
+      logRequest(null, 504, true);
       return res.status(504).json({
         error: 'Request timeout',
         fallback: true,
@@ -258,6 +318,7 @@ export default async function handler(req, res) {
 
     // Handle network errors
     console.error('Network error calling Gemini:', err.message);
+    logRequest(null, 502, true);
     return res.status(502).json({
       error: 'AI service unavailable',
       fallback: true,

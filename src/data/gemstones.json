@@ -42,7 +42,47 @@
     "origin_quality_order": ["Burma (Mogok)", "Mozambique", "Thailand", "India"],
     "buy_url": "https://humarapandit.com",
     "color_hex": "#E0115F",
-    "planet_color_hex": "#FFD700"
+    "planet_color_hex": "#FFD700",
+    "upratna_name": "Red Garnet (Tamda)",
+    "upratna_hindi": "Tamda",
+    "upratna_effect_percent": 50,
+    "upratna_price_range": "₹300–₹2,000",
+    "upratna_buy_note": "Look for deep red colour with no visible inclusions; avoid heat-treated stones for Vedic use.",
+    "wearing_ritual_steps": [
+      {
+        "step": 1,
+        "title": "Purchase & certification",
+        "description": "Buy a natural, unheated ruby of minimum 3 ratti from a trusted Vedic jeweller with a gemological certificate (GIA or IGI). Avoid glass-filled, lead-treated, or flux-healed rubies — these are the most common treatments in the ruby market.",
+        "completed": false
+      },
+      {
+        "step": 2,
+        "title": "Metal & setting preparation",
+        "description": "Set the ruby in a gold ring with an open-back setting so the stone touches your skin. On Sunday morning, wash the ring with Gangajal and keep it in sunlight for 30 minutes to charge the solar energy of Surya.",
+        "completed": false
+      },
+      {
+        "step": 3,
+        "title": "Choose auspicious timing",
+        "description": "Wear on a Sunday during Shukla Paksha (waxing moon), ideally in Uttara Phalguni, Uttara Ashadha, or Kritika nakshatra. The time should be within 1 hour after sunrise during Surya Hora.",
+        "completed": false
+      },
+      {
+        "step": 4,
+        "title": "Perform activation puja",
+        "description": "Soak the ring in raw cow's milk mixed with Gangajal for 20 minutes. Place it on a red cloth before a Surya Yantra or image of Lord Surya. Light a ghee diya, offer red flowers and akshat (rice), and chant 'Om Hraam Hreem Hraum Sah Suryaya Namah' 108 times using a rudraksha mala. Use authentic Mahakumbh Gangajal for best results — available from Humara Pandit's verified collection at humarapandit.com.",
+        "completed": false
+      },
+      {
+        "step": 5,
+        "title": "First wearing ritual",
+        "description": "Wear the ring on the ring finger of the right hand while facing east toward the rising sun. After wearing, touch the feet of your father or a paternal elder. Offer water (arghya) to Surya. Avoid non-vegetarian food, alcohol, and tamasic food for the entire day.",
+        "completed": false
+      }
+    ],
+    "shopify_search_query": "natural-ruby-manik",
+    "dashboard_label": "Ruby (Manik)",
+    "log_code": "RBY"
   },
   {
     "id": "pearl",
@@ -87,7 +127,47 @@
     "origin_quality_order": ["South Sea (Australia)", "Basra (Persian Gulf)", "Japan (Akoya)", "India (Hyderabad)"],
     "buy_url": "https://humarapandit.com",
     "color_hex": "#FDEBD0",
-    "planet_color_hex": "#C0C0C0"
+    "planet_color_hex": "#C0C0C0",
+    "upratna_name": "Moonstone (Chandrakanta)",
+    "upratna_hindi": "Chandrakanta",
+    "upratna_effect_percent": 60,
+    "upratna_price_range": "₹200–₹1,500",
+    "upratna_buy_note": "Choose a translucent moonstone with strong blue adularescence (sheen); avoid milky-opaque or cracked specimens.",
+    "wearing_ritual_steps": [
+      {
+        "step": 1,
+        "title": "Purchase & certification",
+        "description": "Buy a natural, lustrous pearl of minimum 4 ratti with good orient (iridescent sheen). Ensure it is a natural saltwater pearl — not cultured, synthetic, or shell pearl. A certificate from a reputable gem lab confirming natural origin is essential.",
+        "completed": false
+      },
+      {
+        "step": 2,
+        "title": "Metal & setting preparation",
+        "description": "Set the pearl in a silver ring or pendant. On Monday morning, wash the silver setting with Gangajal and raw milk. Keep it on a white cloth under moonlight on the night before wearing to absorb Chandra's energy.",
+        "completed": false
+      },
+      {
+        "step": 3,
+        "title": "Choose auspicious timing",
+        "description": "Wear on a Monday during Shukla Paksha, ideally during Rohini, Hasta, or Shravana nakshatra. The best time is early morning during Chandra Hora. Full Moon (Purnima) Monday is the most auspicious day to wear a pearl.",
+        "completed": false
+      },
+      {
+        "step": 4,
+        "title": "Perform activation puja",
+        "description": "Soak the ring in raw cow's milk for 30 minutes. Place it on a white cloth before an image of Lord Chandra or Shiva (who wears the crescent moon). Light a camphor or ghee diya, offer white flowers and rice, and chant 'Om Shraam Shreem Shraum Sah Chandraya Namah' 108 times. Use authentic Mahakumbh Gangajal for best results — available from Humara Pandit's verified collection at humarapandit.com.",
+        "completed": false
+      },
+      {
+        "step": 5,
+        "title": "First wearing ritual",
+        "description": "Wear the ring on the little finger of the right hand while facing north. After wearing, touch the feet of your mother or a maternal elder. Offer milk to a Shiva Linga if possible. Avoid garlic, onion, and non-vegetarian food for the day. Drink milk or kheer in the evening.",
+        "completed": false
+      }
+    ],
+    "shopify_search_query": "natural-pearl-moti",
+    "dashboard_label": "Pearl (Moti)",
+    "log_code": "PRL"
   },
   {
     "id": "red-coral",
@@ -132,7 +212,47 @@
     "origin_quality_order": ["Italy (Mediterranean)", "Japan", "Taiwan", "India"],
     "buy_url": "https://humarapandit.com",
     "color_hex": "#CD5C5C",
-    "planet_color_hex": "#CC0000"
+    "planet_color_hex": "#CC0000",
+    "upratna_name": "Red Agate (Lal Aqeeq)",
+    "upratna_hindi": "Lal Aqeeq",
+    "upratna_effect_percent": 55,
+    "upratna_price_range": "₹150–₹1,000",
+    "upratna_buy_note": "Select a uniformly deep red carnelian or agate without white banding; natural polish preferred over dyed stones.",
+    "wearing_ritual_steps": [
+      {
+        "step": 1,
+        "title": "Purchase & certification",
+        "description": "Buy a natural, undyed red coral (Moonga) of minimum 5 ratti from an Italian or Japanese origin. Avoid synthetic coral, dyed bamboo coral, or polymer imitations. Coral does not have standard gem lab grading — buy from a trusted Vedic jeweller who can confirm natural organic origin.",
+        "completed": false
+      },
+      {
+        "step": 2,
+        "title": "Metal & setting preparation",
+        "description": "Set the coral in a gold or copper ring with an open-back setting. On Tuesday morning, wash the ring with Gangajal. Place it before a Hanuman idol or image of Lord Kartikeya and apply a small tilak of sindoor (vermillion) on the setting.",
+        "completed": false
+      },
+      {
+        "step": 3,
+        "title": "Choose auspicious timing",
+        "description": "Wear on a Tuesday during Shukla Paksha, ideally in Mrigashira, Chitra, or Dhanishtha nakshatra. The time should be within 1 hour after sunrise during Mangal Hora. Avoid wearing during Rahu Kaal on Tuesday.",
+        "completed": false
+      },
+      {
+        "step": 4,
+        "title": "Perform activation puja",
+        "description": "Soak the ring in raw cow's milk mixed with a pinch of sindoor for 20 minutes. Place it on a red cloth before an image of Lord Hanuman or Kartikeya (governing deities of Mangal). Light a ghee diya with a cotton wick dipped in sesame oil, offer red flowers and jaggery, and chant 'Om Kraam Kreem Kraum Sah Bhaumaya Namah' 108 times. Use authentic Mahakumbh Gangajal for best results — available from Humara Pandit's verified collection at humarapandit.com.",
+        "completed": false
+      },
+      {
+        "step": 5,
+        "title": "First wearing ritual",
+        "description": "Wear the ring on the ring finger of the right hand while facing south (Mangal's direction). After wearing, visit a Hanuman temple if possible and offer sindoor and jasmine oil. Donate red masoor dal to the needy. Avoid anger and confrontation for the entire day.",
+        "completed": false
+      }
+    ],
+    "shopify_search_query": "red-coral-moonga",
+    "dashboard_label": "Red Coral (Moonga)",
+    "log_code": "CRL"
   },
   {
     "id": "emerald",
@@ -177,7 +297,47 @@
     "origin_quality_order": ["Colombia (Muzo)", "Zambia", "Brazil", "India (Rajasthan)"],
     "buy_url": "https://humarapandit.com",
     "color_hex": "#50C878",
-    "planet_color_hex": "#50C878"
+    "planet_color_hex": "#50C878",
+    "upratna_name": "Green Onyx (Hari Sulemani)",
+    "upratna_hindi": "Hari Sulemani",
+    "upratna_effect_percent": 65,
+    "upratna_price_range": "₹200–₹1,200",
+    "upratna_buy_note": "Choose a vivid green onyx with uniform colour and no visible cracks; avoid dyed quartz sold as green onyx.",
+    "wearing_ritual_steps": [
+      {
+        "step": 1,
+        "title": "Purchase & certification",
+        "description": "Buy a natural, untreated emerald (Panna) of minimum 3 ratti with GIA, IGI, or Gubelin certification. Minor inclusions (jardine) are natural and acceptable in emeralds — avoid heavily oiled, resin-filled, or glass-treated stones. Colombian or Zambian origin is preferred.",
+        "completed": false
+      },
+      {
+        "step": 2,
+        "title": "Metal & setting preparation",
+        "description": "Set the emerald in a gold or panchdhatu ring. On Wednesday morning, wash the ring with Gangajal and tulsi (holy basil) water. Place it on a green cloth and keep it near a tulsi plant for an hour to absorb Budh's energy.",
+        "completed": false
+      },
+      {
+        "step": 3,
+        "title": "Choose auspicious timing",
+        "description": "Wear on a Wednesday during Shukla Paksha, ideally in Ashlesha, Jyeshtha, or Revati nakshatra. The time should be about 2 hours after sunrise during Budh Hora. Wednesday of Shukla Paksha during a Mercury-ruled nakshatra is the most auspicious.",
+        "completed": false
+      },
+      {
+        "step": 4,
+        "title": "Perform activation puja",
+        "description": "Soak the ring in tulsi water (water with fresh basil leaves) mixed with Gangajal for 20 minutes. Place it on a green cloth before an image of Lord Vishnu (governing deity of Budh). Light a ghee diya, offer green moong dal, durva grass, and tulsi leaves, and chant 'Om Braam Breem Braum Sah Budhaya Namah' 108 times.",
+        "completed": false
+      },
+      {
+        "step": 5,
+        "title": "First wearing ritual",
+        "description": "Wear the ring on the little finger of the right hand while facing north (Budh's direction). After wearing, donate green moong dal, green vegetables, or green cloth to a Brahmin or the needy. Avoid telling lies or engaging in gossip for the entire day. Read or study something intellectual.",
+        "completed": false
+      }
+    ],
+    "shopify_search_query": "emerald-panna",
+    "dashboard_label": "Emerald (Panna)",
+    "log_code": "EMR"
   },
   {
     "id": "yellow-sapphire",
@@ -222,7 +382,47 @@
     "origin_quality_order": ["Sri Lanka (Ceylon)", "Thailand", "Madagascar", "India"],
     "buy_url": "https://humarapandit.com",
     "color_hex": "#FFD700",
-    "planet_color_hex": "#FF8C00"
+    "planet_color_hex": "#FF8C00",
+    "upratna_name": "Citrine (Sunela)",
+    "upratna_hindi": "Sunela",
+    "upratna_effect_percent": 70,
+    "upratna_price_range": "₹300–₹2,500",
+    "upratna_buy_note": "Choose a natural citrine with warm golden-yellow hue; avoid heat-treated amethyst sold as citrine which has an orange-brown tint.",
+    "wearing_ritual_steps": [
+      {
+        "step": 1,
+        "title": "Purchase & certification",
+        "description": "Buy a natural, untreated yellow sapphire (Pukhraj) of minimum 3 ratti with GIA or IGI certification. Ceylon (Sri Lankan) origin is most prized for Vedic use. Avoid beryllium-treated, diffusion-treated, or lab-created yellow sapphires.",
+        "completed": false
+      },
+      {
+        "step": 2,
+        "title": "Metal & setting preparation",
+        "description": "Set the yellow sapphire in a gold ring with an open-back setting. On Thursday morning, wash the ring with Gangajal and a few drops of honey. Place it on a yellow cloth with turmeric (haldi) and yellow flowers to invoke Guru's blessings.",
+        "completed": false
+      },
+      {
+        "step": 3,
+        "title": "Choose auspicious timing",
+        "description": "Wear on a Thursday during Shukla Paksha, ideally in Punarvasu, Vishakha, or Purva Bhadrapada nakshatra. The time should be morning during Guru Hora. Jupiter is strongest in the morning hours.",
+        "completed": false
+      },
+      {
+        "step": 4,
+        "title": "Perform activation puja",
+        "description": "Soak the ring in raw cow's milk mixed with honey and a pinch of turmeric for 20 minutes. Place it on a yellow cloth before an image of Lord Brihaspati (Guru) or Lord Vishnu. Light a ghee diya, offer yellow flowers, bananas, chana dal, and turmeric, and chant 'Om Graam Greem Graum Sah Gurave Namah' 108 times using a tulsi mala. Use authentic Mahakumbh Gangajal for best results — available from Humara Pandit's verified collection at humarapandit.com.",
+        "completed": false
+      },
+      {
+        "step": 5,
+        "title": "First wearing ritual",
+        "description": "Wear the ring on the index finger of the right hand while facing northeast (Guru's direction, Ishanya Kona). After wearing, touch the feet of your guru, teacher, or any elder. Donate chana dal, jaggery, yellow cloth, or bananas to a Brahmin or temple. Consume only sattvic vegetarian food.",
+        "completed": false
+      }
+    ],
+    "shopify_search_query": "yellow-sapphire-pukhraj",
+    "dashboard_label": "Yellow Sapphire (Pukhraj)",
+    "log_code": "YSP"
   },
   {
     "id": "diamond",
@@ -267,7 +467,47 @@
     "origin_quality_order": ["India (Surat - cutting)", "Belgium (Antwerp - cutting)", "South Africa", "Russia"],
     "buy_url": "https://humarapandit.com",
     "color_hex": "#B9F2FF",
-    "planet_color_hex": "#FFB6C1"
+    "planet_color_hex": "#FFB6C1",
+    "upratna_name": "White Sapphire (Safed Pukhraj)",
+    "upratna_hindi": "Safed Pukhraj",
+    "upratna_effect_percent": 45,
+    "upratna_price_range": "₹500–₹4,000",
+    "upratna_buy_note": "Choose a colourless, eye-clean white sapphire with good brilliance; avoid milky or cloudy stones. Natural Zircon is also acceptable.",
+    "wearing_ritual_steps": [
+      {
+        "step": 1,
+        "title": "Purchase & certification",
+        "description": "Buy a natural diamond of minimum 0.5 carat with GIA certification (4C grading: cut, clarity, colour, carat). Ensure VS clarity or better. Avoid laser-drilled, fracture-filled, HPHT-treated, or CVD lab-grown diamonds for Vedic purposes. The stone should be flawless to the naked eye with no black spots.",
+        "completed": false
+      },
+      {
+        "step": 2,
+        "title": "Metal & setting preparation",
+        "description": "Set the diamond in a platinum or white gold ring. On Friday morning, wash the ring with Gangajal mixed with raw milk. Place it on a white silk cloth with camphor and white flowers to invoke the blessings of Goddess Lakshmi, the divine consort of Shukra's energy.",
+        "completed": false
+      },
+      {
+        "step": 3,
+        "title": "Choose auspicious timing",
+        "description": "Wear on a Friday during Shukla Paksha, ideally in Bharani, Purva Phalguni, or Purva Ashadha nakshatra. The time should be morning during Shukra Hora. Friday of Shukla Paksha Dwitiya or Saptami tithi is considered most auspicious.",
+        "completed": false
+      },
+      {
+        "step": 4,
+        "title": "Perform activation puja",
+        "description": "Soak the ring in raw cow's milk mixed with honey and a few drops of rose water for 20 minutes. Place it on a white silk cloth before an image of Goddess Lakshmi or a Shukra Yantra. Light a camphor diya, offer white flowers, white sweets (mishri/sugar candy), and perfume (attar), and chant 'Om Draam Dreem Draum Sah Shukraya Namah' 108 times.",
+        "completed": false
+      },
+      {
+        "step": 5,
+        "title": "First wearing ritual",
+        "description": "Wear the ring on the middle finger of the right hand while facing east. After wearing, offer white flowers and perfume to Goddess Lakshmi. Donate white rice, white cloth, sugar, or dairy products to a Brahmin or temple. Wear white or light-coloured clothing. Avoid consuming alcohol, non-vegetarian food, and tamasic items.",
+        "completed": false
+      }
+    ],
+    "shopify_search_query": "diamond-heera",
+    "dashboard_label": "Diamond (Heera)",
+    "log_code": "DIA"
   },
   {
     "id": "blue-sapphire",
@@ -312,7 +552,47 @@
     "origin_quality_order": ["Sri Lanka (Ceylon)", "Kashmir", "Madagascar", "Myanmar (Burma)"],
     "buy_url": "https://humarapandit.com",
     "color_hex": "#0F52BA",
-    "planet_color_hex": "#4169E1"
+    "planet_color_hex": "#4169E1",
+    "upratna_name": "Amethyst (Jamunia)",
+    "upratna_hindi": "Jamunia",
+    "upratna_effect_percent": 60,
+    "upratna_price_range": "₹200–₹1,800",
+    "upratna_buy_note": "Choose a deep purple amethyst with even colour saturation; avoid pale or colour-zoned specimens. Natural, unheated stones are preferred.",
+    "wearing_ritual_steps": [
+      {
+        "step": 1,
+        "title": "Purchase & certification",
+        "description": "Buy a natural, untreated blue sapphire (Neelam) of minimum 3 ratti with GIA or IGI certification. Ceylon (Sri Lankan) or Kashmir origin is preferred. CRITICAL: Avoid diffusion-treated, beryllium-heated, or glass-filled sapphires. Blue Sapphire MUST be trial-worn for 3 days before committing — keep it under your pillow or tie it to your arm with blue thread and observe dreams and daily events for signs.",
+        "completed": false
+      },
+      {
+        "step": 2,
+        "title": "Metal & setting preparation",
+        "description": "Set the blue sapphire in a panchdhatu or silver ring with an open-back setting. On Saturday evening, wash the ring with Gangajal mixed with sesame oil (til ka tel). Place it on a dark blue or black cloth with iron nails (representing Shani's metal) and mustard seeds around it.",
+        "completed": false
+      },
+      {
+        "step": 3,
+        "title": "Choose auspicious timing",
+        "description": "Wear on a Saturday during Shukla Paksha, ideally in Pushya, Anuradha, or Uttara Bhadrapada nakshatra. The time should be evening during Shani Hora. NEVER wear during Rahu Kaal on Saturday. The Pushya nakshatra Saturday is considered the single most auspicious day for Neelam.",
+        "completed": false
+      },
+      {
+        "step": 4,
+        "title": "Perform activation puja",
+        "description": "Soak the ring in a mixture of sesame oil (til ka tel), raw milk, and Gangajal for 30 minutes. Place it on a dark blue cloth before an image of Lord Shani or Shani Yantra. Light a sesame oil diya (NOT ghee for Shani puja), offer black til (sesame), urad dal, blue flowers, and iron items, and chant 'Om Praam Preem Praum Sah Shanaischaraya Namah' 108 times using a crystal or iron mala. Use authentic Mahakumbh Gangajal for best results — available from Humara Pandit's verified collection at humarapandit.com.",
+        "completed": false
+      },
+      {
+        "step": 5,
+        "title": "First wearing ritual",
+        "description": "Wear the ring on the middle finger of the right hand while facing west (Shani's direction). After wearing, visit a Shani temple if possible and pour sesame oil on the Shani idol. Donate black urad dal, sesame seeds, iron items, dark blue cloth, or mustard oil to the poor or a temple. Avoid consuming alcohol, non-vegetarian food, and do not lie or cheat anyone. Feed black dogs or crows (Shani's vaahana).",
+        "completed": false
+      }
+    ],
+    "shopify_search_query": "blue-sapphire-neelam",
+    "dashboard_label": "Blue Sapphire (Neelam)",
+    "log_code": "BSP"
   },
   {
     "id": "hessonite",
@@ -357,7 +637,47 @@
     "origin_quality_order": ["Sri Lanka (Ceylon)", "India", "Brazil", "Madagascar"],
     "buy_url": "https://humarapandit.com",
     "color_hex": "#C46210",
-    "planet_color_hex": "#708090"
+    "planet_color_hex": "#708090",
+    "upratna_name": "Zircon (Jarkan)",
+    "upratna_hindi": "Jarkan",
+    "upratna_effect_percent": 65,
+    "upratna_price_range": "₹150–₹800",
+    "upratna_buy_note": "Choose a natural honey-coloured zircon with good transparency; avoid synthetic cubic zirconia which has no Vedic effect.",
+    "wearing_ritual_steps": [
+      {
+        "step": 1,
+        "title": "Purchase & certification",
+        "description": "Buy a natural Hessonite garnet (Gomed) of minimum 4 ratti with good transparency and honey-like colour. Ceylon origin is preferred. Avoid synthetic garnets or glass imitations. Hessonite is relatively affordable, so prioritize colour consistency and transparency over size.",
+        "completed": false
+      },
+      {
+        "step": 2,
+        "title": "Metal & setting preparation",
+        "description": "Set the Gomed in a silver or panchdhatu ring with an open-back setting. On Saturday evening or Wednesday, wash the ring with Gangajal. Place it on a dark cloth (navy or brown) and sprinkle some mustard seeds around it. Rahu's energy is activated after sunset.",
+        "completed": false
+      },
+      {
+        "step": 3,
+        "title": "Choose auspicious timing",
+        "description": "Wear on a Saturday or Wednesday during Shukla Paksha, ideally in Ardra, Swati, or Shatabhisha nakshatra. The time should be after sunset — preferably during Rahu Kaal if Rahu is benefic in your chart. Consult your astrologer for Rahu Kaal timing specific to your city.",
+        "completed": false
+      },
+      {
+        "step": 4,
+        "title": "Perform activation puja",
+        "description": "Soak the ring in raw cow's milk mixed with Gangajal for 20 minutes. Place it on a dark cloth before an image of Goddess Durga (governing deity of Rahu). Light a sesame oil or mustard oil diya, offer dark blue flowers, coconut, and sandalwood paste, and chant 'Om Bhraam Bhreem Bhraum Sah Rahave Namah' 108 times using a sandalwood mala. Use authentic Mahakumbh Gangajal for best results — available from Humara Pandit's verified collection at humarapandit.com.",
+        "completed": false
+      },
+      {
+        "step": 5,
+        "title": "First wearing ritual",
+        "description": "Wear the ring on the middle finger of the right hand while facing southwest (Rahu's direction). After wearing, offer coconut and dark cloth at a Durga temple if possible. Donate blankets, dark-coloured cloth, or coconuts to the needy. Avoid consuming alcohol and intoxicants. Feed birds, especially pigeons.",
+        "completed": false
+      }
+    ],
+    "shopify_search_query": "hessonite-gomed",
+    "dashboard_label": "Hessonite (Gomed)",
+    "log_code": "HES"
   },
   {
     "id": "cats-eye",
@@ -402,6 +722,46 @@
     "origin_quality_order": ["Sri Lanka (Ceylon)", "Brazil", "India", "Madagascar"],
     "buy_url": "https://humarapandit.com",
     "color_hex": "#7B6823",
-    "planet_color_hex": "#8B7355"
+    "planet_color_hex": "#8B7355",
+    "upratna_name": "Tiger's Eye (Vaidurya)",
+    "upratna_hindi": "Vaidurya",
+    "upratna_effect_percent": 55,
+    "upratna_price_range": "₹200–₹1,500",
+    "upratna_buy_note": "Choose a tiger's eye with sharp golden chatoyancy band; avoid dyed or heated stones. The cat's eye effect should be clearly visible.",
+    "wearing_ritual_steps": [
+      {
+        "step": 1,
+        "title": "Purchase & certification",
+        "description": "Buy a natural Chrysoberyl Cat's Eye (Lehsunia) of minimum 3 ratti with sharp chatoyancy — the cat's eye band must be clearly visible and centered. Ceylon origin is the finest. Avoid synthetic catseye, fiber-optic glass, or quartz cat's eye which have no Vedic potency.",
+        "completed": false
+      },
+      {
+        "step": 2,
+        "title": "Metal & setting preparation",
+        "description": "Set the cat's eye in a gold or panchdhatu ring with an open-back setting. On Tuesday or Saturday morning, wash the ring with Gangajal and kusha grass water. Place it on a saffron-coloured (kesari) cloth near a Ganesh idol, as Lord Ganesha is the governing deity of Ketu.",
+        "completed": false
+      },
+      {
+        "step": 3,
+        "title": "Choose auspicious timing",
+        "description": "Wear on a Tuesday or Saturday during Shukla Paksha, ideally in Ashwini, Magha, or Moola nakshatra. The time should be about 2 hours after sunrise. Tuesday is preferred over Saturday when Ketu is in a Mars-ruled sign in the birth chart.",
+        "completed": false
+      },
+      {
+        "step": 4,
+        "title": "Perform activation puja",
+        "description": "Soak the ring in raw cow's milk mixed with Gangajal and a few strands of saffron (kesar) for 20 minutes. Place it on a saffron cloth before an image of Lord Ganesha (governing deity of Ketu). Light a ghee diya, offer durva grass, modak (Ganesha's favourite sweet), red flowers, and saffron, and chant 'Om Sraam Sreem Sraum Sah Ketave Namah' 108 times using a rudraksha mala. Use authentic Mahakumbh Gangajal for best results — available from Humara Pandit's verified collection at humarapandit.com.",
+        "completed": false
+      },
+      {
+        "step": 5,
+        "title": "First wearing ritual",
+        "description": "Wear the ring on the middle finger of the right hand while facing south or southwest. After wearing, visit a Ganesh temple if possible and offer durva grass and modak. Donate a seven-grain mixture (saptadhanya), blankets, or saffron-coloured cloth to the needy. Practice meditation or silence (mauna vrat) for a portion of the day. Avoid tamasic food and intoxicants.",
+        "completed": false
+      }
+    ],
+    "shopify_search_query": "cats-eye-lehsunia",
+    "dashboard_label": "Cat's Eye (Lehsunia)",
+    "log_code": "CAT"
   }
 ]

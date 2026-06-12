@@ -1,6 +1,8 @@
-import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home';
 import Result from './pages/Result';
+import Dashboard from './pages/Dashboard';
+import NotFound from './pages/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -12,8 +14,12 @@ const router = createBrowserRouter([
     element: <Result />,
   },
   {
+    path: '/dashboard',
+    element: <Dashboard />,
+  },
+  {
     path: '*',
-    element: <Navigate to="/" replace />,
+    element: <NotFound />,
   },
 ]);
 

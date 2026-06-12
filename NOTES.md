@@ -14,6 +14,10 @@ Chose **Vite** over Create React App because CRA is officially deprecated by the
 
 4. **All 9 navaratna gemstone data is sourced from classical texts** — primarily Brihat Parashara Hora Shastra (BPHS) for rashi-graha assignments and gemstone-planet correspondences, cross-referenced with standard Vedic astrology resources for wearing instructions, mantras, and caution notes.
 
+5. **Shopify as the commerce layer** — Assumed Shopify as the commerce layer based on Humara Pandit's actual storefront architecture (confirmed from their website URL structure and job description). The current buy buttons use static search URLs as a placeholder. In a production integration, these would use the Shopify Storefront API to fetch live product IDs and inventory status per navaratna SKU, ensuring accurate pricing and availability for items ranging from ₹199 (Panch Mukhi Rudraksha) to ₹1,75,000+ (premium gemstones).
+
+6. **Confidence score as a data-team metric** — The confidence score (0–100 with a defined rubric) was designed to be loggable and trackable over time — not just a UI element. In a production system backed by Humara Pandit's data infrastructure (Zoho Analytics, as listed in their JD), the distribution of confidence scores across rashi/issue combinations would reveal which input combinations the AI is least certain about, guiding future training data collection for Tejas.
+
 ## Known limitations
 
 1. **No kundali (birth chart) calculation** — this would require exact birth time (hour, minute) and geographic coordinates, plus a Vedic ephemeris API to compute planetary positions. The current approach uses Rashi + Lagna as proxies, which is the standard simplified approach used by many practicing astrologers for initial recommendations.
